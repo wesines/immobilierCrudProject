@@ -18,7 +18,7 @@
       <?php } ?>
       </tr>
   </thead>
-  <tbody>
+  <tbody> 
 
        <?php while ($logement= $stmt->fetch(PDO::FETCH_ASSOC)) {  ?>
         <tr>  
